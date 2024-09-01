@@ -109,7 +109,7 @@ export default tseslint.config(
         { props: "never", children: "never" },
       ],
       "react/function-component-definition": [
-        "warn",
+        "error",
         { namedComponents: "arrow-function" },
       ],
       "react/self-closing-comp": ["error", { component: true, html: true }],
